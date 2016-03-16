@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="MultiplePageApp.HighScorePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MultiplePageApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock
+        Text="HighScorePage"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center"
+        />
+        <Button
+        x:Name="HighScoreButton"
+        Content="Back"
+        HorizontalAlignment="Right"
+        VerticalAlignment="Top"
+        Click="HighScoreButton_Click"
+        Background="#33007CA0"
+        />
+    </Grid>
+</Page>
